@@ -1,13 +1,14 @@
-Afin de pouvoir lancer le jeu, veuillez importer la base de donnée dans un serveur MySQL.Veillez a ce que les informations de connection a la base soient respectées.
+Afin de pouvoir lancer le jeu, veuillez importer la base de donnÃ©e dans un serveur MySQL.
+Veillez a ce que les informations de connection a la base soient respectÃ©es.
 
 
 
 
-- Informations de connection à la base MySQL
+- Informations de connection Ã  la base MySQL
 
 host: 'localhost'
 user: 'root'
-password: 'Z8FDBt+,'
+password: '*****'
 
 
 - Fichier contenant le dump de la base
