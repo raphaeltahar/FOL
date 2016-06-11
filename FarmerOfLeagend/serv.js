@@ -14,7 +14,7 @@ app.configure(function(){
 var client = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
-	password: 'Z8FDBt+,',
+	password: '*****',
 });
 
 server.listen(80);
