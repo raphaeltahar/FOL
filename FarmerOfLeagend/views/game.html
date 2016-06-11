@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Game | Let's Farm!</title>
+		<!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io.connect('http://localhost');
+			
+		</script>
+		<script src="/js/map_gen.js"></script>
+	</head>
+	<body>
+		<canvas id="canvas" style="float:left;border: 1px solid black;width:86%;height:100%;">Votre navigateur ne supporte pas HTML5, veuillez le mettre à jour pour jouer.</canvas>
+		<div id="pannel" style="visibility:hidden;border: 1px solid black;float:right;width:13%;height:100%;"></div>
+		<div><p>Money : <script>document.write(getCookie('money')); </script></p></div>
+	</body>
+</html>

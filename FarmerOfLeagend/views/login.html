@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Game : Difficulty Choice</title>
+    <script src="http://localhost:80/socket.io/socket.io.js"></script>
+	</head>
+	
+	<body>
+		<section class="difForm">
+		<form name="login" action="game" method="get" accept-charset="utf-8">
+			<ul>
+				<li><button id=\"easy\" onClick=\'sendDif(0)\'/>Easy</button></li>
+				<li><button id=\"medium\" onClick=\'sendDif(1)\'/>Medium</button></li>
+				<li><button id=\"hard\" onClick=\'sendDif(2)\'/>Hard</button></li>
+			</ul>
+		</form>
+		</section>
+	</body>
+</html>

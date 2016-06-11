@@ -1,0 +1,48 @@
+#status {
+	text-align: center;
+	font-size: xx-large;
+	font-family: script, cursive;
+}
+img {
+	width:200px;
+	height:200px;	
+	display:none;
+	float: right;
+	margin-right: 34px;
+}
+#desc {
+	text-align: center;
+	font-size: x-large;
+	font-family: script, cursive;;
+	visibility: hidden;
+}
+.measy {
+	margin-left: 20%;
+	width: 224px;
+	height: 225px;
+	float: left;
+	margin-top: 200px; 
+	background:white;
+	border:0px;
+	background-image: url("easy_button.png");
+}
+.mmedium {
+	margin-left: 15%;
+	width: 225px;
+	height: 225px;
+	float: left;
+	margin-top: 200px;
+	background:white;
+	border:0px;
+	background-image: url("medium_button.png");
+}
+.mhard {
+	margin-left: 15%;
+	width: 224px;
+	height: 224px;
+	float: left;
+	margin-top: 200px;
+	background:white;
+	border:0px;
+	background-image: url("hard_button.png");
+}
